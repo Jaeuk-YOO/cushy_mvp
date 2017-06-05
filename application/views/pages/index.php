@@ -83,6 +83,12 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <div class="card-footer">
+		                                <div class="stats">
+                                            
+			                                <i class="material-icons">check_circle</i> <a href="<?php echo site_url('/program_list')?>">자세히 보기</a>
+		                                </div>
+	                                </div>
                                 </div>
                         </div>
                         <div class="col-md-4">
@@ -128,6 +134,11 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <div class="card-footer">
+		                                <div class="stats">
+			                                <i class="material-icons">check_circle</i> <a href="<?php echo site_url('/attendance_today')?>">자세히 보기</a>
+		                                </div>
+	                                </div>
                                 </div>
                         </div>
                         <div class="col-md-4">
@@ -169,6 +180,11 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                    <div class="card-footer">
+		                                <div class="stats">
+			                                 <i class="material-icons">check_circle</i> <a href="<?php echo site_url('/notice')?>">자세히 보기</a>
+		                                </div>
+	                                </div>
                                 </div>
                                
                             </div>

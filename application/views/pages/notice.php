@@ -8,7 +8,7 @@
                                     <i class="material-icons">assignment</i>
                                 </div>
                                 <div class="card-content">
-                                    <h4 class="card-title">프로그램 목록</h4>
+                                    <h4 class="card-title">공지사항</h4>
                                     <div class="toolbar">
                                         <!--        Here you can write extra buttons/actions for the toolbar              -->
                                     </div>
@@ -16,10 +16,10 @@
                                         <table id="datatables" class="table table-striped table-no-bordered table-hover" cellspacing="0" width="100%" style="width:100%">
                                             <thead>
                                                 <tr>
-                                                    <th>프로그램</th>
-                                                    <th>담당강사</th>
-                                                    <th>진행시간</th>  
-                                                    <th class="disabled-sorting text-right">Actions</th>
+                                                    <th>이름</th>
+                                                    <th>공지사항</th>
+                                                    <th>날짜</th>  
+                                                   
                                                 </tr>
                                             </thead>
                                            
@@ -27,26 +27,24 @@
                                                 
                                                 
                                                 <tr>
-                                                    <td>종이접기</td>
-                                                    <td>오지연 </td>
-                                                    <td>12:00~13:00 (수)</td>
-                                                    <td class="text-right">
-                                                        <a href="<?php echo site_url('/program_detail')?>" class="btn btn-simple btn-warning btn-icon edit"><i class="material-icons">dvr</i></a>
-                                                        
-                                                    </td>
+                                                    <td>운영자</td>
+                                                    <td>긴급점검 </td>
+                                                    <td>2017.01.04</td>
                                                 </tr>
                                                 
                                                 <tr>
                                 
-                                                    <td>에어로빅</td>
-                                                    <td>김지연</td>
-                                                    <td>09:00~10:30 (목)</td>
-                                                   
-                                                    <td class="text-right">
-                                                       <a href="<?php echo site_url('/program_detail')?>" class="btn btn-simple btn-warning btn-icon edit"><i class="material-icons">dvr</i></a>
-                                                       
-                                                    </td>
+                                                    <td>운영자</td>
+                                                    <td>긴급점검</td>
+                                                    <td>2017.02.09</td>
                                                 </tr>
+                                                 <tr>
+                                
+                                                    <td>운영자</td>
+                                                    <td>로그인 안된다고 하지 마세요. </td>
+                                                    <td>2017.02.09</td>
+                                                </tr>
+                                               
                                             </tbody>
                                         </table>
                                     </div>
