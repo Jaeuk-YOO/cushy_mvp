@@ -1,27 +1,52 @@
-
-             <div class="content">
+            <br><br><br>
+            <div class="card-container">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-8">
                             <div class="card">
-                                <div class="card-header card-header-icon" data-background-color="purple">
-                                    <i class="material-icons">assignment</i>
+                                <div class="card-header card-header-icon" data-background-color="green">
+                                    <i class="material-icons">language</i>
                                 </div>
                                 <div class="card-content">
-                                    <h4 class="card-title">장기결석자 관리</h4>
-                                        <div class="dropdown">
-                                            <button href="#" class="btn dropdown-toggle" data-toggle="dropdown" aria-expanded="true" >
-                                                상태
-                                                <b class="caret"></b>
-                                            </button>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="#">3일이상</a></li>
-                                                <li><a href="#">1주일이상</a></li>
-                                                <li><a href="#">1달이상</a></li>
-
-                                                
-                                            </ul>
+                                    <h4 class="card-title">동요 합창 수업 </h4>
+                                        <div class="col-md-6">
+                                           <img src="http://via.placeholder.com/350x350">
+                                           
                                         </div>
+                                        <div class="col-md-6">
+                                            <div class="card">
+                                                <div class="card-header card-header-icon" data-background-color="rose">
+                                                    <i class="material-icons">language</i>
+                                                </div>
+                                                <div class="card-content">
+                                                    <h4 class="card-title">인식률</h4>
+                                                        <h3> 37 / 100 </h3>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header card-header-icon" data-background-color="rose">
+                                                    <i class="material-icons">language</i>
+                                                </div>
+                                                <div class="card-content">
+                                                    <h4 class="card-title">인식결과 확인창</h4>
+                                                       <div class="col-md-6">
+                                                         <img src="http://via.placeholder.com/200x200">
+                                                       </div>
+                                                       <div class="col-md-6">
+                                                          <h5>이름 : </h5>
+                                                          <h5>프로그램명 : </h5>
+                                                          <h5>출석확인 : </h5>
+                                            </div>
+    </div>
+                                        </div>
+
+                                       
+                                </div>
+                            </div>
+
+                                    <div class="card">
+                                       
+                                    <div class="card-content table-responsive table-full-width">
                                     <div class="material-datatables">
                                         <table id="datatables" class="table table-striped table-no-bordered table-hover" cellspacing="0" width="100%" style="width:100%">
                                             <thead>
@@ -44,7 +69,7 @@
                                                 
                                                 <tr>
                                                     <td>3</td>
-                                                    <td>결석</td>
+                                                    <td>출석</td>
                                                     <td>노인에어로빅</td>
                                                     <td>장복지</td>
                                                     <td>생활체육</td>
@@ -52,12 +77,12 @@
                                                     <td>김할머니</td>
                                                     <td>010-1234-1234</td>
                                                     <td>10%</td>
-                                                    <td>-</td>
+                                                    <td>07:03</td>
                                                 
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
-                                                    <td>결석</td>
+                                                    <td>출석</td>
                                                     <td>노인에어로빅</td>
                                                     <td>김복지</td>
                                                     <td>생활체육</td>
@@ -65,11 +90,11 @@
                                                     <td>김할머니</td>
                                                     <td>010-1234-1234</td>
                                                     <td>10%</td>
-                                                    <td>-</td>
+                                                    <td>07:03</td>
                                                 </tr>
                                                 <tr>
                                                     <td>1</td>
-                                                    <td>결석</td>
+                                                    <td>출석</td>
                                                     <td>노인에어로빅</td>
                                                     <td>김복지</td>
                                                     <td>생활체육</td>
@@ -77,18 +102,21 @@
                                                     <td>이할머니</td>
                                                     <td>010-1234-1234</td>
                                                     <td>10%</td>
-                                                    <td>-</td>
+                                                    <td>07:03</td>
                                                 </tr>  
                                             
                                             </tbody>
                                         </table>
                                     </div>
+                                    
+                                    <button class="btn btn-danger">선택삭제</button>
+                                 </div>
                                 </div>
-                                <!-- end content-->
+                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            </div>
-          
+        </div>
+           

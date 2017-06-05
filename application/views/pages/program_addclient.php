@@ -9,7 +9,8 @@
                                     <i class="material-icons">assignment</i>
                                 </div>
                                 <div class="card-content">
-                                    <h4 class="card-title">클라이언트 목록</h4>
+                                    <h4 class="card-title">수강생 등록하기</h4>
+                                     <button class="btn btn-success">프로그램으로 돌아가기 </button>
                                     <div class="toolbar">
                                         <!--        Here you can write extra buttons/actions for the toolbar              -->
                                     </div>

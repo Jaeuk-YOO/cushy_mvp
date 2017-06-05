@@ -39,13 +39,13 @@
                 <ul class="nav">
                     <li class="active">
                         <a href="<?php echo site_url('/index') ?>">
-                            <i class="material-icons">dashboard</i>
+                            <i class="material-icons">account_balance</i>
                             <p>우리마포복지관</p>
                         </a>
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#pagesExamples">
-                            <i class="material-icons">image</i>
+                            <i class="material-icons">create</i>
                             <p>출결관리 
                                 <b class="caret"></b>
                             </p>
@@ -67,7 +67,7 @@
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#componentsExamples">
-                            <i class="material-icons">apps</i>
+                            <i class="material-icons">person</i>
                             <p>클라이언트관리 
                                 <b class="caret"></b>
                             </p>
@@ -86,7 +86,7 @@
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#formsExamples">
-                            <i class="material-icons">content_paste</i>
+                            <i class="material-icons">school</i>
                             <p>프로그램
                                 <b class="caret"></b>
                             </p>
@@ -105,7 +105,7 @@
                     </li>
                     <li>
                         <a data-toggle="collapse" href="#tablesExamples">
-                            <i class="material-icons">grid_on</i>
+                            <i class="material-icons">poll</i>
                             <p>통계
                                 <b class="caret"></b>
                             </p>
